@@ -19,9 +19,12 @@
     return self;
 }
 - (IBAction)FirstClick:(id)sender {
-    NSLog(@"Falei pra nao clicar =(");
-//    imgDontClick.image = @"hahah2.png";
-    UIImage *image = [UIImage imageNamed: @"hahah2.png"];
+    UIImage *image;
+    if(self.imgDontClick.image==NO){
+        image = [UIImage imageNamed: @"hahah2.png"];
+    } else {
+        image = [UIImage imageNamed: @" "];
+    }
     [self.imgDontClick setImage:image];
 }
 
