@@ -16,20 +16,13 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self)
-    {
-        self.title = NSLocalizedString(@"Prove It", @"Prove It");
-        //self.tabBarItem.image = [UIImage imageNamed:@"first"];
-    }
     return self;
 }
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://enthu.se"]]];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)FirstClick:(id)sender {
+    NSLog(@"Falei pra nao clicar =(");
+//    imgDontClick.image = @"hahah2.png";
+    UIImage *image = [UIImage imageNamed: @"hahah2.png"];
+    [self.imgDontClick setImage:image];
 }
 
 - (void)didReceiveMemoryWarning

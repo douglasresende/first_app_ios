@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05EE22E18DB610A000D12DB /* hahah.fw.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE22D18DB610A000D12DB /* hahah.fw.png */; };
+		C05EE23018DB6286000D12DB /* hahah2.png in Resources */ = {isa = PBXBuildFile; fileRef = C05EE22F18DB6286000D12DB /* hahah2.png */; };
 		C081831C18DA1EC10032F57A /* eu.png in Resources */ = {isa = PBXBuildFile; fileRef = C081831918DA1EC10032F57A /* eu.png */; };
 		C081831D18DA1EC10032F57A /* mdl_sistemas.png in Resources */ = {isa = PBXBuildFile; fileRef = C081831A18DA1EC10032F57A /* mdl_sistemas.png */; };
 		C081831E18DA1EC10032F57A /* sys_cilia.png in Resources */ = {isa = PBXBuildFile; fileRef = C081831B18DA1EC10032F57A /* sys_cilia.png */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C05EE22D18DB610A000D12DB /* hahah.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hahah.fw.png; path = Images.xcassets/hahah.fw.png; sourceTree = "<group>"; };
+		C05EE22F18DB6286000D12DB /* hahah2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hahah2.png; path = Images.xcassets/hahah2.png; sourceTree = "<group>"; };
 		C081831918DA1EC10032F57A /* eu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eu.png; path = Images.xcassets/eu.png; sourceTree = "<group>"; };
 		C081831A18DA1EC10032F57A /* mdl_sistemas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mdl_sistemas.png; path = Images.xcassets/mdl_sistemas.png; sourceTree = "<group>"; };
 		C081831B18DA1EC10032F57A /* sys_cilia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sys_cilia.png; path = Images.xcassets/sys_cilia.png; sourceTree = "<group>"; };
@@ -93,8 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				C081831918DA1EC10032F57A /* eu.png */,
+				C05EE22D18DB610A000D12DB /* hahah.fw.png */,
 				C081831A18DA1EC10032F57A /* mdl_sistemas.png */,
 				C081831B18DA1EC10032F57A /* sys_cilia.png */,
+				C05EE22F18DB6286000D12DB /* hahah2.png */,
 				C0FC478218DA154300E44194 /* bg.jpg */,
 				C09549CD18DA08CA00105AA2 /* 1606264.jpg */,
 			);
@@ -256,6 +262,8 @@
 			files = (
 				C081831E18DA1EC10032F57A /* sys_cilia.png in Resources */,
 				C09549CE18DA08CA00105AA2 /* 1606264.jpg in Resources */,
+				C05EE22E18DB610A000D12DB /* hahah.fw.png in Resources */,
+				C05EE23018DB6286000D12DB /* hahah2.png in Resources */,
 				C081831D18DA1EC10032F57A /* mdl_sistemas.png in Resources */,
 				C0ED647118D9DB4B00973CD1 /* Images.xcassets in Resources */,
 				C0ED646318D9DB4B00973CD1 /* InfoPlist.strings in Resources */,

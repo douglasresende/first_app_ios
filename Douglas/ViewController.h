@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (nonatomic, retain) IBOutlet UIWebView *webView;
-
+@property (retain, nonatomic) IBOutlet UIButton *FirstButton;
+@property (retain, nonatomic) IBOutlet UIImageView *imgDontClick;
 @end
